@@ -69,6 +69,25 @@ the raw data into a JPEG format that you can view.
 an HTTP request to fetch the web page.
 
 
+---
+
+## 2.Subnetting Calculation
+Given an IP range of **192.168.1.0/24**, we have divided it into four subnets using a subnet calculator:
+
+| Subnet | Network Address | First Usable IP | Last Usable IP | Broadcast Address |
+|--------|----------------|----------------|----------------|-------------------|
+| 1      | 192.168.1.0/26 | 192.168.1.1    | 192.168.1.62   | 192.168.1.63     |
+| 2      | 192.168.1.64/26 | 192.168.1.65   | 192.168.1.126  | 192.168.1.127    |
+| 3      | 192.168.1.128/26 | 192.168.1.129  | 192.168.1.190  | 192.168.1.191    |
+| 4      | 192.168.1.192/26 | 192.168.1.193  | 192.168.1.254  | 192.168.1.255    |
+
+### Screenshots
+Subnetting calculator screenshots are available in the `subnetting_screenshots/` folder.
+
+---
+
+
+
 ## 3. TCP/IP Protocol Suite in a Real-World Scenario
 **Scenario:** Loading a Web Page (www.google.com)
 When a user enters www.google.com in their browser, the TCP/IP protocol suite processes the request across four layers:
